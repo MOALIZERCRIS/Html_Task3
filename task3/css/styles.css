@@ -1,0 +1,171 @@
+
+body{
+  width: 960px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Gaegu', cursive;
+  margin: 20px 0;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Gaegu', cursive;
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-size: 30px;
+}
+
+p{
+  font-size: 16px;
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
+
+
+div img{
+  border-radius: 10px;
+}
+
+.content-row {
+  display: flex;
+}
+
+.content-row div {
+margin: 20px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container header nav a {
+  
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: #F87B99
+}
+
+.container header nav a:hover{
+  background-color: white;
+  color: #F87B99;
+} 
+
+.container header nav a:nth-child
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+}
+
+@keyframes animate
+{
+      0% 
+     {
+   transform: translateY(0px);
+     }
+    60%
+    {
+      transform: translateY(0px);
+        }
+       80%
+       {
+        transform: translateY(-20);
+          }
+          100%
+          {
+            transform: translateY(0px);
+              }
+            
+}
+
+.about-section header nav a:about:nth-child{
+  animation-delay: 0;
+}
+.container header nav a:cookies:nth-child{
+  animation-delay: -1.2s;
+}
+.container header nav a:wedding:nth-child{
+  animation-delay: -1s;
+}
+.container header nav a:catering:nth-child{
+  animation-delay: -.8s;
+}
+
+
+
+
+
+.about-section{
+  margin-top: 0px;
+}
+
+.contact-section {
+  border-top: 1px dashed black;
+  padding: 20px 0;
+}
+
+.contact-section h2 {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+
+.contact-section address{
+  line-height: 2;
+}
+
+
+
+
+footer {
+  width: 100%;
+  background: #F87B99;
+  border-top: 1px dashed white;
+}
+
+footer .footer-content { 
+  margin: 0 auto; 
+  width: 600px;
+  
+}
+
+footer .footer-content h3 {
+  padding: 0;
+  margin: 20px 0;
+}
+
+footer nav {
+  display: flex;
+}
+
+footer nav ul a{
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+} 
+
+footer nav a:first-child {
+  margin-left: 0;
+}
+
+footer nav ul a:hover{
+  color: white;
+}
+
+footer .footer-content .copyright{
+  padding: 20px 0;
+   text-align: center;
+}
